@@ -23,6 +23,19 @@ public class Multiples {
         return count;
     }
 
+    public static int multiples() {
+        int count = 0;
+        int i = 1;
+
+        while (i < 1000)   {
+            if (i%3==0 || i%5==0)
+                count++;
+            i++;
+
+        }
+        return count;
+    }
+
 
 }
 
