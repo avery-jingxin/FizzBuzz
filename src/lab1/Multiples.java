@@ -1,9 +1,11 @@
 package lab1;
 
 public class Multiples {
+    int n = 1000;
+    int a = 3;
+    int b = 5;
 
     public static void main() {
-
         System.out.println(multiples(1000, 3, 5));
 
     }
